@@ -120,7 +120,7 @@ if __name__ == "__main__":
     workspace_id, user_id = get_workspace_and_user_id()
     project_id = get_project_id(workspace_id)
     names = get_all_tasks(workspace_id, project_id)
-    "NAMES AND IDS OF TASKS"
+    print("NAMES AND IDS OF TASKS")
     print(names)
     report = get_data_report(workspace_id, user_id, names)
     print("BY TASKS")
